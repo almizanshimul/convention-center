@@ -9,8 +9,9 @@ nav{
     bottom: 20%;
 }
 .toast{
+    width: 250px;
     top: 50%;
-    right: 0;
+    right: 10px;
     left: auto;
 }
 .toast{
