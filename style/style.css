@@ -21,3 +21,12 @@ nav{
     background-color: transparent;
     box-shadow: 0px 1px #DFDFDF66;
 }
+.Fbgcolor{
+    background-color: #0B0D17;
+}
+footer .row{
+    height: 300px;
+}
+.col-content{
+    width: fit-content;
+}
