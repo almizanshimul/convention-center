@@ -17,3 +17,7 @@ nav{
 .toast{
     border-left: 6px solid #0D6EFD;
 }
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: 0px 1px #DFDFDF66;
+}
