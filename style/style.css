@@ -17,6 +17,40 @@ nav{
 .toast{
     border-left: 6px solid #0D6EFD;
 }
+
+/* ---------------
+Price Start 
+----------------- */
+#package .row{
+    margin: 40px 0;
+}
+.weedding {
+    transform: translate(0px, -40px);
+}
+.text-pri{
+    color: #221D4F;
+    font-weight: 600;
+}
+.list-group-item{
+    background: transparent;
+}
+.weedding-plus .list-group-item{
+    color: #ffffff !important;
+}
+.weedding-plus{
+    background-color: #3F87F5;
+    border-radius: 26px;
+    padding-left: 20px !important;
+}
+.package-content{
+    padding: 50px 10px;
+}
+.badge{
+    left: auto;
+    right: 20px;
+}
+
+
 .accordion-button:not(.collapsed){
     background-color: transparent;
     box-shadow: 0px 1px #DFDFDF66;
@@ -29,4 +63,9 @@ footer .row{
 }
 .col-content{
     width: fit-content;
+}
+@media screen and (max-width: 768px) {
+    .weedding {
+        transform: translate(0px, 0px);
+    }
 }
