@@ -8,3 +8,11 @@ nav{
 .carousel-caption{
     bottom: 20%;
 }
+.toast{
+    top: 50%;
+    right: 0;
+    left: auto;
+}
+.toast{
+    border-left: 6px solid #0D6EFD;
+}
