@@ -62,6 +62,11 @@ Price Start
 }
 .package-content{
     padding: 50px 10px;
+    transition: 0.5s;
+    border-radius: 16px;
+}
+.package-content:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .badge{
     left: auto;
@@ -75,6 +80,17 @@ Price Start
 }
 .Fbgcolor{
     background-color: #0B0D17;
+}
+
+/* contact us  */
+.card{
+    transition: 0.7s;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.form-shadow{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* Footer start  */
