@@ -31,7 +31,7 @@ Price Start
     color: #221D4F;
     font-weight: 600;
 }
-.list-group-item{
+#package .list-group-item{
     background: transparent;
 }
 .weedding-plus .list-group-item{
@@ -65,6 +65,9 @@ footer .row{
     width: fit-content;
 }
 @media screen and (max-width: 768px) {
+    nav{
+        height: auto;
+    }
     .weedding {
         transform: translate(0px, 0px);
     }
